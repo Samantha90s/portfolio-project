@@ -43,8 +43,10 @@ h4 {
   font-size: 20px;
 }
 
-.secondary-block {
-  background-color: var(--accent-color);
+.social-icon {
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 @media (max-width: 768px) {
