@@ -1,0 +1,19 @@
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Poppins", sans-serif;
+}
+
+.hero-img {
+  background: url("../images/rain.jpeg") no-repeat center center;
+  background-size: cover;
+  height: 35vh;
+  min-height: 100%;
+}
+
+.name {
+  font-size: 25px;
+  font-weight: 500;
+  opacity: 90%;
+}
