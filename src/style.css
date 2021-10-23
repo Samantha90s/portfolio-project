@@ -1,3 +1,7 @@
+:root {
+  --accent-color: #eefeff;
+}
+
 h1,
 h2,
 h3,
@@ -16,4 +20,39 @@ h4 {
   font-size: 25px;
   font-weight: 500;
   opacity: 90%;
+}
+
+.card {
+  color: black;
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+  width: 350px;
+}
+
+.card:hover {
+  background-color: var(--accent-color);
+  color: black;
+}
+
+.card-img-top {
+  height: 13vw;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  .card-img-top {
+    height: 30vw;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 576px) {
+  .card-img-top {
+    height: 50vw;
+    object-fit: cover;
+  }
 }
