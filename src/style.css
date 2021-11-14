@@ -1,11 +1,13 @@
 :root {
-  --accent-color: #eefeff;
+  --primary-color: #734c96;
+  --accent-color: #edeafe;
 }
 
 h1,
 h2,
 h3,
 h4 {
+  color: var(--primary-color);
   font-family: "Poppins", sans-serif;
 }
 
@@ -59,6 +61,11 @@ footer {
   color: black;
   font-size: 25px;
   font-weight: bold;
+  transition: all 200ms ease-in-out;
+}
+
+.social-icon:hover {
+  color: var(--primary-color);
 }
 
 .about-photo {
